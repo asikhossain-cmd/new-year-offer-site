@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+}
+
+.header-banner {
+    position: relative;
+}
+.header-banner img {
+    filter: brightness(50%);
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Marriweather', serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    width: 514px;
+} 
+h3 {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
