@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 header {
     text-align: center;
 }
@@ -11,8 +13,10 @@ header {
 }
 .header-banner img {
     filter: brightness(50%);
+    margin-top: 50px;
+    width: 1320px;
 }
-h1{
+.header-banner h1{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -23,10 +27,97 @@ h1{
     color: white;
     width: 514px;
 } 
-h3 {
+
+.header-banner h3 {
     position: absolute;
-    top: 39%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 32px;
+    color: white;
+    font-family: 'Marriweather', serif;
 }
- 
+main {
+    text-align: center;
+
+}
+.offer {
+    width: 802.9px;
+    height: 806px;
+    margin: 120px auto;
+
+}
+.offer h1 {
+    font-family: 'inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000;
+
+}
+.offer h3 {
+    margin-top: 48px;
+    color: #FF0000;
+    font-family: 'inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.offer h5 {
+    margin-top: 16px;
+    font-family: 'inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+}
+.offer img {
+    margin-top: 48px;
+}
+
+/* Greeting Card */
+
+.greeting-card {
+    position: relative;
+    width: 1320px;
+    height: 600px;
+    margin: 0px auto;
+}
+.greeting-card-collumn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    display: flex;
+    gap: 39px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 68px 138px;
+}
+.greeting-card-collumn-1 h1 {
+    font-size: 64px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.greeting-card-collumn-1 p {
+    font-size: 18px;
+    font-family: 'inter', sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+}
+.greeting-card-collumn-1 button {
+    text-transform: uppercase;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+    border: none;
+    margin-top: 48px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+.overlay-greeting-filter {
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.0));
+    position: absolute;
+    top: 0;
+    left: 0;
+}
