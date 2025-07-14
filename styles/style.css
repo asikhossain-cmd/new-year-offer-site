@@ -287,3 +287,48 @@ main {
     right: 5%;
     bottom: 50%;
 }
+
+/* Holiday Sale Design End */
+/* Product Portfolio Design Start */
+.awesome-portfolio {
+    max-width: 1320px;
+    height: 1163px; 
+    margin: 50px auto;
+    text-align: left;
+}
+.awesome-portfolio h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+}
+.awesome-portfolio h1 {
+    margin-top: 16px;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+.awesome-portfolio p {
+    max-width: 896px;
+    margin-top: 22px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 32px;
+}
+.portfolio-collumn {
+    margin-top: 48px;
+}
+.portfolio-collumn img {
+    margin: 0 24px 24px 0;
+    width: 410px;
+}
+/* Product Portfolio Design Start */
+
+/* Newslater Design Start */
+.newslater {
+    max-width: 1320px;
+    height: 616px;
+}
+/* Newslater Design End */
