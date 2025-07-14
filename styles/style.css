@@ -330,5 +330,24 @@ main {
 .newslater {
     max-width: 1320px;
     height: 616px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+.newslater h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #070211;
+    margin-top: 40px;
+}
+.newslater p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 896px;
+    color: rgba(0,0,0, 0.5);
+    margin: 20px auto 0;
 }
 /* Newslater Design End */
