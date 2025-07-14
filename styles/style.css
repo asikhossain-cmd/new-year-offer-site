@@ -232,10 +232,9 @@ main {
 
 .holiday-sale {
     max-width: 1320px;
-    height: 986px;
+    /* height: 986px; */
     margin: 0 auto;
     text-align: center;
-    position: relative;
 }
 .holiday-sale h3 {
     font-family: 'Inter', sans-serif;
@@ -265,11 +264,26 @@ main {
 .holiday-sale-first-para {
     padding-top: 50px;
 }
-.holiday-sale img {
+.image-inside-sale img {
     position: absolute;
+}
+.image-inside-sale {
+    position: relative;
+    max-width: 1320px;
+    height: 780px;
+    margin-top: 64px;
 }
 .red-bottom {
     bottom: 0;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.gift-image {
+    bottom: 15%;
+    right: 35%;
+    filter: brightness(100%)
+}
+.fifty-parcent-image {
+    right: 5%;
+    bottom: 50%;
 }
